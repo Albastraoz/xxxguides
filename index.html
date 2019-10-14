@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XXX Guides | Your guide for Amsterdam!</title>
+
+    <!-------HERE I IMPORTED BOOTSTRAP 4.3 STYLESHEET SOURCE: https://getbootstrap.com/docs/4.3/getting-started/download/-------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-------HERE I IMPORT MY OWN STYLESHEET TO OVERLAP BOOTSTRAPS STYLES AND CREATE MY OWN-------->
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+
+    <!-------HERE I IMPORT FONT AWESOME TO USE FOR ICONS SOURCE: https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use-------->
+    <script src="https://kit.fontawesome.com/5d737143b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------HEADER-------->
+    <header>
+        <div class="container-fluid navbar-background-color fixed-top">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <a href="index.html"><img src="assets/images/logo-xxx-guides.png" class="header-logo float-left"></img></a>
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMobileDropdown" aria-controls="navbarMobileDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarMobileDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mr-3 ml-3"><a href="culture.html" class="nav-link nav-menu-color">Culture</a></li>
+                        <li class="nav-item mr-3"><a href="museum.html" class="nav-link nav-menu-color">Museum</a></li>
+                        <li class="nav-item mr-3"><a href="daytrips.html" class="nav-link nav-menu-color">Daytrips</a></li>
+                        <li class="nav-item mr-3"><a href="information.html" class="nav-link nav-menu-color">Tips</a></li>
+                        <li class="nav-item mr-3"><a href="contact.html" class="nav-link nav-menu-color">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-------SECTION-------->
+    <!-------JUMBOTRON-------->
+    <div class="container-fluid welcome-container">
+        <div class="dark-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="jumbotron">
+                    <h1 class="font-fredoka">Welcome to XXX guides</h1>
+                    <p class="tile-paragraph">Here you can find all the must do’s and information you need to know before visiting Amsterdam.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-------TILES-------->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 tile-white-col">
+                <div class="row">
+                    <a href="culture.html" class="tile-link-white tile-link">
+                        <div class="col-12 tile-structure">
+                            <h2 class="tile-header">Market, food and boat tours?</h2>
+                            <p>Take a boat tour through the canals, visit the best markets, all cultural places in Amsterdam right here!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 tile-red-col">
+                <div class="row">
+                    <a href="museum.html" class="tile-link-red tile-link">
+                        <div class="col-12 tile-structure">
+                            <h2 class="tile-header">Looking to visit the best museum?</h2>
+                            <p>Find the most intresting museums in this section!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 tile-white-col change-md-red">
+                <div class="row">
+                    <a href="information.html" class="tile-link-white tile-link">
+                        <div class="col-12 tile-structure">
+                            <h2 class="tile-header">Train tickets or rental car?</h2>
+                            <p>All the information you need to know before you visit Amsterdam available here.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 tile-red-col change-md-white">
+                <div class="row">
+                    <a href="daytrips.html" class="tile-link-red tile-link">
+                        <div class="col-12 tile-structure">
+                            <h2 class="tile-header">Need to get out of the city?</h2>
+                            <p>Get some fresh air and explorer more place in the Netherlands.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------FOOTER-------->
+    <!-------FOR THE FOOTER I TOOK THE FOOTER CODE FROM THE MINI RESUME ASSIGNMENT AND CHANGED IT-------->
+    <footer class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-md-4 footer-section">
+                <h3>Any other questions?</h3>
+                <p>Find most of your answers on our <a href="information.html" target="_blank" class="footer-link-text">information page</a>. Or contact us directly <a href="contact.html" target="_blank" class="footer-link-text">here</a>.</p>
+            </div>
+            <div class="col-md-4 footer-section">
+                <h3>Find us on social media!</h3>
+                <ul class="list-inline social-media">
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<!-------HERE I IMPORTED BOOTSTRAPS JAVASCRIPT SOURCE: https://getbootstrap.com/docs/4.3/getting-started/download/-------->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

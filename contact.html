@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XXX Guides | Culture page</title>
+
+    <!-------HERE I IMPORTED BOOTSTRAP 4.3 STYLESHEET SOURCE: https://getbootstrap.com/docs/4.3/getting-started/download/-------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-------HERE I IMPORT MY OWN STYLESHEET TO OVERLAP BOOTSTRAPS STYLES-------->
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+
+    <!-------HERE I IMPORT FONT AWESOME TO USE FOR ICONS SOURCE: https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use-------->
+    <script src="https://kit.fontawesome.com/5d737143b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------HEADER-------->
+    <header>
+        <div class="container-fluid navbar-background-color fixed-top">
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <a href="index.html"><img src="assets/images/logo-xxx-guides.png" class="header-logo float-left"></img></a>
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMobileDropdown" aria-controls="navbarMobileDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarMobileDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mr-3 ml-3"><a href="culture.html" class="nav-link nav-menu-color">Culture</a></li>
+                        <li class="nav-item mr-3"><a href="museum.html" class="nav-link nav-menu-color">Museum</a></li>
+                        <li class="nav-item mr-3"><a href="daytrips.html" class="nav-link nav-menu-color">Daytrips</a></li>
+                        <li class="nav-item mr-3"><a href="information.html" class="nav-link nav-menu-color">Tips</a></li>
+                        <li class="nav-item mr-3"><a href="contact.html" class="nav-link nav-menu-color">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-------SECTION-------->
+
+    <section class="container-fluid">
+        <div class="row justify-content-lg-center tile-white-col">
+            <div class="col-12 item-position">
+                <h1 class="uppercase title-page">Contact us</h1>
+                <hr class="title-breakpoint">
+            </div>
+        </div>
+        <div class="row justify-content-lg-center tile-white-col">
+            <div class="col-12 item-position">
+                <h2 class="font-fredoka uppercase">Information</h2>
+                <p class="item-paragraph">If you havn't found all the information you were looking for on our website don't hesitate to contact us through our contact form or directly by social media or email. We usually answer you within 24 hours on working days.</p>
+                <div>Address:</div>
+                <div class="information-item font-fredoka">Herengracht 270<br>1016 BW Amsterdam<br>The Netherlands</div><br>
+                <div class="information-item">Email:</div>
+                <div class="information-item font-fredoka">contact@xxxguides.nl</div>
+                <!-------Copied an example from bootstrap and changed it source: https://getbootstrap.com/docs/4.0/components/forms/-------->
+                <h2 class="font-fredoka uppercase">Form</h2>
+                <form>
+                    <div class="form-group input-width">
+                        <label for="exampleInputName1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
+                    </div>
+                    <div class="form-group input-width">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Question</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send!</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-------FOOTER-------->
+    <!-------FOR THE FOOTER I TOOK THE FOOTER CODE FROM THE MINI RESUME ASSIGNMENT AND CHANGED IT-------->
+    <footer class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-md-4 footer-section">
+                <h3>Any other questions?</h3>
+                <p>Find most of your answers on our <a href="information.html" target="_blank" class="footer-link-text">information page</a>. Or contact us directly <a href="contact.html" target="_blank" class="footer-link-text">here</a>.</p>
+            </div>
+            <div class="col-md-4 footer-section">
+                <h3>Find us on social media!</h3>
+                <ul class="list-inline social-media">
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank">
+                            <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<!-------HERE I IMPORTED BOOTSTRAPS JAVASCRIPT SOURCE: https://getbootstrap.com/docs/4.3/getting-started/download/-------->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

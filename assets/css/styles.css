@@ -1,0 +1,352 @@
+/* HERE I IMPORT THE FONTS USED ON THE WEBSITE FROM GOOGLE FONTS SOURCE: https://fonts.google.com/ */
+
+@import url('https://fonts.googleapis.com/css?family=Exo|Fredoka+One');
+
+/*---------- GENERAL STYLING ----------*/
+
+body {
+    font-family: "Exo", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    padding-top: 40px;
+}
+
+.red {
+    color: #DB0000;
+}
+
+.title-page {
+    padding-top: 75px;
+}
+
+.title-breakpoint {
+    width: 100%;
+    height: 5px;
+    border: 0;
+    background-color: #DB0000;
+    margin-bottom: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-fredoka {
+    font-family: "Fredoka One", sans-serif;
+}
+
+.item-position {
+    max-width: 800px;
+}
+
+.item-paragraph {
+    text-indent: 10px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.item-images {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+    /* Do not scale the image */
+    object-position: center;
+    margin-bottom: 50px;
+}
+
+.information-icon {
+    padding-right: 20px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.information-block {
+    padding-bottom: 10px;
+}
+
+.information-divider {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.information-item {
+    display: inline-block;
+}
+
+.link-white {
+    color: #000000;
+    text-decoration: none;
+}
+
+.link-white:hover {
+    color: #DB0000;
+    text-decoration: none;
+}
+
+.link-red {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link-red:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-primary {
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 50px;
+    background-color: #DB0000;
+    border-color: #DB0000;
+}
+
+.btn-primary:hover {
+    background-color: #C90000;
+    border-color: #C90000;
+}
+
+.input-width {
+    max-width: 400px;
+}
+
+/*---------- INFORMATION LAYOUT ----------*/
+
+.information-paragraph {
+    text-align: justify;
+}
+
+/*---------- NAVIGATION ----------*/
+
+.nav-link {
+    font-size: 24px;
+    text-align: right;
+}
+
+/* TO CHANGE THE DEFAULT COLOR LOADED FROM BOOTSTRAP I GOOGLED A WAY TO CHANGE THE COLOR AND AFTER CHANGED THIS TO MY PREFERRED COLOR WHICH IS WHITE */
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* SAME AS ABOVE BUT THEN FOR THE MENU ITEMS */
+
+.nav-menu-color {
+    color: #fafafa !important;
+}
+
+.nav-link {
+    transition: background-color 0.35s ease-in-out;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #DB0000;
+}
+
+.navbar-toggler {
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.navbar-background-color {
+    background-color: #BA0000;
+    padding-right: 0;
+}
+
+.header-logo {
+    height: 50px;
+    padding-right: 10px;
+    position: relative;
+}
+
+/*---------- HOMEPAGE TILE DESIGN ----------*/
+
+.tile-structure {
+    text-align: center;
+    flex: 1;
+    -webkit-flex: 1;
+    padding: 0 15%;
+}
+
+.tile-white-col {
+    background-color: #fafafa;
+    color: #000000;
+}
+
+.tile-red-col {
+    background-color: #D40000;
+    color: #fafafa;
+}
+
+/* In order to vertically center the content within the '.tile-link' I used the following source: https://www.w3schools.com/cssref/css3_pr_align-items.asp */
+
+.tile-link {
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    height: 50vh;
+    width: 100%;
+    transition: background-color 0.35s ease-in-out;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
+}
+
+.tile-link:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.tile-link-white {
+    color: #000000;
+}
+
+.tile-link-white:hover {
+    color: #000000;
+}
+
+.tile-link-red {
+    color: #fafafa;
+}
+
+.tile-link-red:hover {
+    color: #fafafa;
+}
+
+.tile-header {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+/*---------- JUMBOTRON ----------*/
+
+/* I used the jumbotron from the whine page assignment to create the same effect here. */
+
+.welcome-container {
+    background: url('../images/jumbotron-image.jpg') no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/*---------- FOOTER ----------*/
+
+footer {
+    background-color: #000;
+    color: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+.social-media li a i {
+    padding-right: 5px;
+    color: #fafafa;
+    transition: color 0.35s ease-in-out;
+    -moz-transition: color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out;
+}
+
+.social-media li a i:hover {
+    color: #DB0000;
+}
+
+.footer-link-text {
+    color: #DB0000;
+}
+
+.footer-link-text:hover {
+    color: #C90000;
+}
+
+/* If the size will be higher than a mobile device the padding on the right side of the navigation bar will be 100px (exactly the width of the logo) so that it will be centered */
+
+@media (min-width: 768px) {
+    .navbar {
+        padding-right: 100px;
+    }
+    .change-md-red {
+        background-color: #D40000;
+        color: #fafafa;
+    }
+    .change-md-white {
+        background-color: #fafafa;
+        color: #000000;
+    }
+    .change-md-red a {
+        color: #fafafa;
+    }
+    .change-md-white a {
+        color: #000000;
+    }
+    .change-md-red a:hover {
+        color: #fafafa;
+    }
+    .change-md-white a:hover {
+        color: #000000;
+    }
+}
+
+@media (min-width: 992px) {
+    .item-information {
+        max-width: 600px;
+    }
+    .information-paragraph {
+        max-width: 500px;
+    }
+    .change-lg-red {
+        background-color: #D40000;
+        color: #fafafa;
+    }
+    .change-lg-white {
+        background-color: #fafafa;
+        color: #000000;
+    }
+}
