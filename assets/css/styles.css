@@ -126,6 +126,8 @@ h2 {
 .nav-link {
     font-size: 24px;
     text-align: right;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
 
 /* TO CHANGE THE DEFAULT COLOR LOADED FROM BOOTSTRAP I GOOGLED A WAY TO CHANGE THE COLOR AND AFTER CHANGED THIS TO MY PREFERRED COLOR WHICH IS WHITE */
@@ -164,7 +166,7 @@ h2 {
 }
 
 .navbar-background-color {
-    background-color: #BA0000;
+    background-color: #A90000;
     padding-right: 0;
 }
 
@@ -306,9 +308,16 @@ footer {
     color: #C90000;
 }
 
-/* If the size will be higher than a mobile device the padding on the right side of the navigation bar will be 100px (exactly the width of the logo) so that it will be centered */
+@media (min-width: 576px) {
+    .nav-link {
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+}
+
 
 @media (min-width: 768px) {
+    /* If the size will be higher than a mobile device the padding on the right side of the navigation bar will be 100px (exactly the width of the logo) so that it will be centered */
     .navbar {
         padding-right: 100px;
     }
