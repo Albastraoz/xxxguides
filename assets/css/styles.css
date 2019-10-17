@@ -53,7 +53,6 @@ h2 {
     width: 100%;
     max-height: 30vh;
     object-fit: cover;
-    /* Do not scale the image */
     object-position: center;
     margin-bottom: 50px;
 }
@@ -237,8 +236,7 @@ h2 {
 
 /*---------- JUMBOTRON ----------*/
 
-/* I used the jumbotron from the whine page assignment to create the same effect here. */
-
+/* I used the jumbotron from the whiskey page assignment to create the same effect here. */
 .welcome-container {
     background: url('../images/jumbotron-image.jpg') no-repeat center center fixed;
     height: 100vh;
@@ -307,6 +305,7 @@ footer {
     color: #C90000;
 }
 
+/* Changed the padding to normal after 576px so that on very small mobile phones the collapsed menu doesn't cover more than 50% of the screen */
 @media (min-width: 576px) {
     .nav-link {
         padding-bottom: 8px;
@@ -320,6 +319,7 @@ footer {
     .navbar {
         padding-right: 100px;
     }
+    /* Here the color layout changes when items are being place vertically on smaller screens to keep the design */
     .change-md-red {
         background-color: #D40000;
         color: #fafafa;
@@ -342,6 +342,7 @@ footer {
     }
 }
 
+/* Change the max width on certain items on the page when device is large */
 @media (min-width: 992px) {
     .item-information {
         max-width: 600px;
