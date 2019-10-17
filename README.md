@@ -8,7 +8,7 @@ Repository on [GitHub](https://github.com/Albastraoz/xxxguides)
 
 ## UX
 
-![Responsive Views of Home Page](images/responsive.jpg)
+![Responsive Views of Home Page](assets/images/responsive.jpg)
 
 ### Users 
 Expected users of the website are mainly tourists but can be international students or expads. 
@@ -22,12 +22,12 @@ They come to the website to find more information about Amsterdam and the Nether
 5. A person travelling through the Netherlands needs to find out more about public transport
 
 ### Design
-![Website Logo - Gold circles representing the seats of the Oireachtas](images/logo-xxx-guides.png)
+![Website Logo - All three colours representing Amsterdam](assets/images/logo-xxx-guides.png)
 - Colour scheme consists of local colours of Amsterdam
     - Amsterdam flag example [amsterdam flag](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Amsterdam.svg/1280px-Flag_of_Amsterdam.svg.png).
     - Main red colour:   ![#DB0000](https://placehold.it/15/DB0000/000000?text=+) `#DB0000`
     - Other red colours have been used to create visible difference
-- [Custom designed logo](images/logo-xxx-guides.png) created using two fonts: 
+- [Custom designed logo](assets/images/logo-xxx-guides.png) created using two fonts: 
     - font-family: 'Fredoka One', 'helvetica' sans-serif;
     - font-family: 'Covered By Your Grace', 'helvetica' sans-serif;
 - Exo and Fredoka One font used throughout the website
@@ -45,13 +45,45 @@ The website consists of several pages each with a unique section of information:
 Features planned, implemented and outlined for later development 
 
 ### Planned Features
-- 
+- Documentation - ReadMe File & Mockups
+- Website content
+- Colour Scheme
+- Custom Logo
+- Bootstrap - HTML, CSS Framework
+    - Grid System - Columns and Rows
+    - Icons
+- Responsive design - Mobile First
+- UX elements
+    - User Flow
+    - Animations
+    - Transitions
+- Accesibility
+- Git - Version Control System
+- GitHub - Remote Repository
+- Deployed - Hosted on Github Pages
 
 ### Existing Features
-- 
+- Documentation - ReadMe File & Mockups
+- Website content
+- Colour Scheme
+- Custom Logo
+- Bootstrap - HTML, CSS Framework
+    - Grid System - Columns and Rows
+    - Cards
+    - Icons
+- Responsive design - Mobile First
+- UX elements
+    - User Flow
+    - Animations
+    - Transitions
+- Accesibility
+- Git - Version Control System
+- GitHub - Remote Repository
+- Deployed - Hosted on Github Pages
 
 ### Features Left to Implement
-- 
+- Collapsable menu in mobile view when clicked outside of menu
+- Sub pages with more content per item
 
 ## Technologies Used
 
@@ -62,8 +94,6 @@ This project makes use of:
     - CSS for Styling
 - [Bootstrap](https://getbootstrap.com/)
     - HTML and CSS Framework from **Bootstrap**
-- [JavaScript](https://www.w3schools.com/jsref/)
-    - Base **JavaScript** for collapsable menu in bootstrap
 - [Google Chrome](https://www.google.com/chrome/)
     - Used for browser and dev tools
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
@@ -82,7 +112,7 @@ This project makes use of:
 
 ## Deployment
 
-The project is hosted on [GitHub Pages](https://pattern-projects.github.io/oireachtas-ifd-project/)
+The project is hosted on [GitHub Pages](https://albastraoz.github.io/xxxguides/index.html)
 
 The process involved:
 - Host a git repository on GitHub. Explained [here](https://help.github.com/en/articles/create-a-repo).
@@ -93,12 +123,12 @@ The process involved:
  
 To deploy your own version of the website:
 - Have git installed
-- Visit the [repository]([GitHub](https://github.com/Pattern-Projects/oireachtas-ifd-project))
+- Visit the [repository]([GitHub](https://github.com/Albastraoz/xxxguides))
 - Click 'Clone or download' and copy the code for http
 - Open your chosen IDE (Cloud9, VS Code, etc.)
 - Open a terminal in your root directory
 - Type 'git clone ' followed by the code taken from github repository
-    - ```git clone https://github.com/Pattern-Projects/oireachtas-ifd-project.git```
+    - ```git clone https://github.com/Albastraoz/xxxguides.git```
 - When this completes you have your own version of the website
     - Feel free to make any changes to it
 - The website can be run by opening one of the HTML files within a web browser
@@ -110,14 +140,17 @@ The benefits of hosting your website on GitHub pages is that any pushed changes 
 
 It may take a moment for changes to appear on the hosted website.
 
-During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
-
-
 ## Credits
 
 ### Content
 The text on the website has been written myself or copied and edited from:  
 - [Wikipedia](https://www.wikipedia.org/)
+
+All icons are imported from Fontawesome:
+- [Fontawesome](http://www.fontawesome.com/)
+
+Fonts are imported from Google fonts:
+- [Google Fonts](https://fonts.google.com/)
 
 ### Media
 The images for the website are copyright free and taken from:
@@ -125,7 +158,7 @@ The images for the website are copyright free and taken from:
 - [Flickr](https://www.flickr.com/)
 - [Pixabay](https://pixabay.com/)
 
-All images take from the internet as followed:
+All images direct location:
 - [jumbotron-image.jpg](https://en.wikipedia.org/wiki/File:KeizersgrachtReguliersgrachtAmsterdam.jpg)
 - [albert-cuyp-market.jpg](https://www.flickr.com/photos/franklinheijnen/26400390934/)
 - [leidseplein.jpg](https://commons.wikimedia.org/wiki/File:2019_Amsterdam,_Leidseplein_(2).jpg)
@@ -154,3 +187,4 @@ Thank you to the following for inspiration, motivation and the direction I neede
 - Seun Owonikoko    @seun_mentor
 - Yung-Chin Huang
 - Code Institute
+- Google - your best friend
