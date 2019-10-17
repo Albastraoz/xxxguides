@@ -45,68 +45,13 @@ The website consists of several pages each with a unique section of information:
 Features planned, implemented and outlined for later development 
 
 ### Planned Features
-- Documentation - ReadMe File, Licence & Mockups
-- JavaScript focused development
-- Data retrieval from [Oireachtas API](https://data.oireachtas.ie/)
-- Page refreshes
-- Dynamic content switching by house
-    - Bills
-    - Members
-- Pagination
-- Breadcrumbs
-- D3/DC data charts
-- Colour Scheme
-- Custom Logo
-- Favicon
-- Jasmine Testing
-- Bootstrap - HTML, CSS Framework
-    - Grid System - Columns and Rows
-    - Cards
-    - Icons
-- Responsive design - Mobile First
-- UX elements
-    - User Flow
-    - Animations
-    - Transitions
-- Accesibility
-- Git - Version Control System
-- GitHub - Remote Repository
-- Deployed - Hosted on Github Pages
+- 
 
 ### Existing Features
-- Documentation - ReadMe File, Licence & Mockups
-- JavaScript focused development
-- Data retrieval from [Oireachtas API](https://data.oireachtas.ie/)
-- Page refreshes
-- Dynamic content switching by house
-    - Members
-- Pagination
-- Breadcrumbs
-- Colour Scheme
-- Custom Logo
-- Favicon
-- Jasmine Testing
-- Bootstrap - HTML, CSS Framework
-    - Grid System - Columns and Rows
-    - Cards
-    - Icons
-- Responsive design - Mobile First
-- UX elements
-    - User Flow
-    - Animations
-    - Transitions
-- Accesibility
-- Git - Version Control System
-- GitHub - Remote Repository
-- Deployed - Hosted on Github Pages
-
+- 
 
 ### Features Left to Implement
-- D3/DC data charts
-- Dynamic content switching by house
-    - Bills
-- Show members by constituency
-    - GPS location
+- 
 
 ## Technologies Used
 
