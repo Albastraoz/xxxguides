@@ -110,6 +110,25 @@ This project makes use of:
 - [Am I Responsive](http://ami.responsivedesign.is)
     - Testing responsiveness of the website
 
+## Testing
+
+The website was tested by users regularly and for errors on W3.
+
+### User experience testing 
+Preview was send regularly to people within my social circle and asked for testing.
+
+1. Sending website location to specific user over messaging.
+2. Write down feedback.
+3. Search for possible fixes.
+4. If possible implement solution to error or improve product.
+
+### Coding error testing
+After complete product start to addres coding errors:
+
+1. Go to W3's validation websites [HTML](https://validator.w3.org) or [CSS](https://jigsaw.w3.org/css-validator/).
+2. Fill in URL of every specific page and look for errors.
+3. Locate errors and solve accordinatly.
+4. After all errors are solved go back to step 1 and continue untill no errors are shown.
 
 ## Deployment
 
