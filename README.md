@@ -18,21 +18,22 @@ They come to the website to find more information about Amsterdam and the Nether
 1. Tourists with kids want to find out which place to visit
 2. An expad wants to know places to visit to get a better understanding of the culture
 3. An international student who will stay in Amsterdam for a few months searching for nightlife
-4. Elderly tourits searching for the best museums in town
-5. A person travelling through the Netherlands needs to find out more about public transport
+4. Elderly tourists searching for the intresting museums in the area
+5. A person travelling through the Netherlands needs to find out more about public transport or money
 
 ### Design
-![Website Logo - All three colours representing Amsterdam](assets/images/logo-xxx-guides.png)
-- Colour scheme consists of local colours of Amsterdam
-    - Amsterdam flag example [amsterdam flag](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Amsterdam.svg/1280px-Flag_of_Amsterdam.svg.png).
+![Website Logo - All three colours representing Amsterdam](assets/images/logo-xxx-guides-example.png)
+- Colour scheme consists of local colours from Amsterdam
+    - Amsterdam flag [example](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Amsterdam.svg/1280px-Flag_of_Amsterdam.svg.png).
     - Main red colour:   ![#DB0000](https://placehold.it/15/DB0000/000000?text=+) `#DB0000`
     - Other red colours have been used to create visible difference
-- [Custom designed logo](assets/images/logo-xxx-guides.png) created using two fonts: 
-    - font-family: 'Fredoka One', 'helvetica' sans-serif;
-    - font-family: 'Covered By Your Grace', 'helvetica' sans-serif;
+    - Black and white for balance
+- [Custom designed logo](assets/images/logo-xxx-guides-example.png) created using two fonts: 
+    - font-family: 'Fredoka One', sans-serif;
+    - font-family: 'Covered By Your Grace', sans-serif;
 - Exo and Fredoka One font used throughout the website
-    - font-family: 'Exo', 'helvetica' sans-serif;
-    - font-family: 'Fredoka One', 'helvetica' sans-serif;
+    - font-family: 'Exo', sans-serif;
+    - font-family: 'Fredoka One', sans-serif;
 
 ### Mockups
 The website consists of several pages each with a unique section of information:
