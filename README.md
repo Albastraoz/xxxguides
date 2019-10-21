@@ -1,7 +1,10 @@
 # XXX Guides
 
-A website with informational content about Amsterdam and the Netherlands.
-The content will include places in the Netherlands with Amsterdam as main subject.
+This website is my first milestone project about User Centric Frontend Development at Code Institute.
+It has informational content about Amsterdam and the Netherlands.
+Since I'm from Amsterdam myself this was a good topic for me to write and find content for.
+The content will include places in the Netherlands with Amsterdam as it's main subject hence the name XXX Guides.
+In general the project went well except for that I was a bit late with creating commits on Git but later picked it up and understand the importance of it.
 
 Hosted on [GitHub Pages](https://albastraoz.github.io/xxxguides/index.html)
 Repository on [GitHub](https://github.com/Albastraoz/xxxguides)
@@ -11,12 +14,12 @@ Repository on [GitHub](https://github.com/Albastraoz/xxxguides)
 ![Responsive Views of Home Page](assets/images/responsive.jpg)
 
 ### Users 
-Expected users of the website are mainly tourists but can be international students or expads. 
+Expected users of the website are mainly tourists but can be international students or expats. 
 They come to the website to find more information about Amsterdam and the Netherlands.
 
 ### User Stories
 1. Tourists with kids want to find out which place to visit
-2. An expad wants to know places to visit to get a better understanding of the culture
+2. An expat wants to know places to visit to get a better understanding of the culture
 3. An international student who will stay in Amsterdam for a few months searching for nightlife
 4. Elderly tourists searching for the intresting museums in the area
 5. A person travelling through the Netherlands needs to find out more about public transport or money
@@ -117,7 +120,7 @@ The website was tested by users regularly and for errors on W3.
 ### User experience testing 
 Preview was send regularly to people within my social circle and asked for testing.
 
-1. Sending website location to specific user over messaging.
+1. Sending website location to specific users over messaging.
 2. Write down feedback.
 3. Search for possible fixes.
 4. If possible implement solution to error or improve product.
@@ -127,7 +130,7 @@ After complete product start to addres coding errors:
 
 1. Go to W3's validation websites [HTML](https://validator.w3.org) or [CSS](https://jigsaw.w3.org/css-validator/).
 2. Fill in URL of every specific page and look for errors.
-3. Locate errors and solve accordinatly.
+3. Locate errors and solve accordingly.
 4. After all errors are solved go back to step 1 and continue untill no errors are shown.
 
 ## Deployment
